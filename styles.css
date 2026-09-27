@@ -1,0 +1,38 @@
+h3 {
+    text-align: center;
+}
+
+.buttons {
+    display: flex;
+    justify-content: center;
+    gap: 12px;
+}
+
+body{
+    background-color: #566bf5;
+}
+
+.card{
+    background-color: white;
+    padding: 30px;
+    border-radius: 15px;
+    text-align: center;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.2);
+    width: 400px;
+    margin: 0 auto;
+    max-width: 90%;
+    box-sizing: border-box;
+}
+
+#decrease{
+    color: red;
+    background-color: #4290f5;
+}
+#increase{
+    color: green;
+    background-color: #4290f5;
+}
+#reset{
+    color: black;
+    background-color: #4290f5;
+}
